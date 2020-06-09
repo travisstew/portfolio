@@ -22,7 +22,7 @@ app.use(express.json());
 
 // app.use('/', require('../routes/index'));
 
-app.use('/.netlify/functions/app',require('../routes/index'))
+app.use('/.netlify/functions/app',require('../routes/index'));
 
 // app.listen(PORT,function () { 
 //   console.log('listening on port ' + PORT);
